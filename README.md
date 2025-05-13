@@ -43,3 +43,6 @@ Screenshots
 ## Screenshots
 
 ![Settings Screen](assets/Screenshot_2025-05-13-20-27-35-74_f10274ca929cf5479d3075b5df5b6a40.jpg)
+## Demo
+
+[🎥 Watch Video](assets/Record_2025-05-13-20-17-46.mp4)
