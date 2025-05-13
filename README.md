@@ -23,48 +23,23 @@ The following dependencies are used in the project:
 * Clone the repository:
 
 
-git clone <repository_url>
+* git clone <https://github.com/nakhulkrishna/top-terms-task-projets>
 Navigate to the project directory:
 
-bash
-Copy
-Edit
-cd <project_directory>
-Install dependencies:
+* cd <project_directory>
+* Install dependencies:
+* flutter pub get
+* Run the app:
 
-bash
-Copy
-Edit
-flutter pub get
-Run the app:
 
-bash
-Copy
-Edit
-flutter run
-Project Structure
-lib/
+* flutter run Project Structure lib/
 
-constant/colors.dart: Contains color constants used throughout the app.
+* constant/colors.dart: Contains color constants used  throughout the app.
 
-logic/dropdown.dart: Contains logic for managing the dropdown menu and changing the user's online status.
+ ## logic/dropdown.dart: Contains logic for managing the dropdown menu and changing the user's online status.
 
-model/model.dart: Defines the SettingsItem class, which holds data for each setting in the list.
-
-widgets/item_card.dart: Contains a widget for displaying each settings item.
-
-widgets/profile.dart: Contains the widget to display the user's profile with a status indicator.
-
-AppBar & Bottom Navigation
-The AppBar has a text widget to display "Add Account". The BottomNavigationBar contains the following items:
-
-Link icon: Opens the link settings.
-
-Chat icon: Opens the chat settings.
-
-Profile icon: Displays the user's profile with the current status.
-
-The user can tap on the profile icon in the app bar to display a popup menu with two options: 'Online' and 'Away'. The selected status is shown on the profile icon.
 
 Screenshots
-You can add screenshots of the app here to show the layout and appearance of the app.
+## Screenshots
+
+![Settings Screen](assets/Screenshot_2025-05-13-20-27-35-74_f10274ca929cf5479d3075b5df5b6a40.jpg)
